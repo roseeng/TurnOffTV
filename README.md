@@ -9,7 +9,8 @@ Next:
 Connect a PIR to pin Y
 Connect an IR transmitter to pin X
 
-Load the "IdleWatch" sketch, place the arduino where the PIR can see the sofa, and the IR transmitter can reach the TV.
+Load the "IdleWatch" sketch and update the PowerOff() method with the correct send method and code. 
+Place the arduino where the PIR can see the sofa, and the IR transmitter can reach the TV.
 
 Todo:
 Add an indicator of some sorts, that warns you when you are sitting too still. At the moment you get no warning, the TV just suddenly turns off.
